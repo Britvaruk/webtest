@@ -1,0 +1,29 @@
+a{
+   text-decoration: none;
+   float: left;
+   margin-left: 20px;
+   margin-top: 25px;
+}
+
+
+.header_content {
+    background: #ffd561;
+    height: 80px;
+}
+.content_block{
+   float: left;
+   color: #2e2d2c;
+}
+.block_text{
+   font-size: 20px;
+
+}
+body{
+   background-color: #2e2d2c;
+  margin: 0;
+}
+.main_content{
+
+   height: max;
+
+}
