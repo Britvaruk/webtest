@@ -27,14 +27,15 @@
          <div id="registration" hidden>
             <h1 align="center">Регистрация</h1>
             <div class="registration_block">
-               <p>Username</p>
-               <input type="text" class="registration_input">
-               <p>Password</p>
-               <input type="text" class="registration_input">
-               <p>ConfirmPassword</p>
-               <input type="text" class="registration_input">
-               <p>Email</p>
-               <input type="text" class="registration_input">
+               <p style="font-weight: 600;">Username</p>
+               <input type="text" value="" class="registration_input" id="login">
+               <p style="font-weight: 600;">Password</p>
+               <input type="text" value="" class="registration_input" id="password">
+               <p style="font-weight: 600;">Confirm password</p>
+               <input type="text" value="" class="registration_input" id="confirmPassword">
+               <p style="font-weight: 600;">Email</p>
+               <input type="text" value="" class="registration_input" id="email">
+               <button type="button" name="add" id="add_account" onclick="takeAccount()">Отправить</button>
             </div>
          </div>
          <div class="block_images">
